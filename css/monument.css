@@ -1,0 +1,26 @@
+.monument {
+  margin-top: 70px;
+  line-height: 1.5em; }
+  .monument h1 {
+    margin-bottom: 10px; }
+  .monument_card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 30px; }
+    .monument_card a {
+      color: green; }
+      .monument_card a:hover {
+        color: #000;
+        transition: .5s; }
+    .monument_card h3 {
+      margin-bottom: 20px; }
+    .monument_card img {
+      width: 150px; }
+    .monument_card-item {
+      margin-bottom: 30px; }
+      .monument_card-item:hover {
+        border-bottom: 1px solid grey; }
+
+/*# sourceMappingURL=monument.css.map */
