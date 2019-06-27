@@ -3,6 +3,9 @@
   line-height: 1.5em; }
   .monument h1 {
     margin-bottom: 10px; }
+  .monument p span {
+    font-weight: 600;
+    padding-top: 20px; }
   .monument_card {
     display: flex;
     justify-content: space-around;
@@ -15,5 +18,17 @@
       padding: 30px; }
       .monument_card-item p {
         text-align: left; }
+      .monument_card-item .work_item {
+        width: 300px; }
+  .monument p {
+    padding-bottom: 10px; }
+  .monument ul {
+    display: block;
+    margin-bottom: 10px; }
+    .monument ul span {
+      font-weight: 600; }
+  .monument li {
+    list-style: disc;
+    margin-left: 30px; }
 
 /*# sourceMappingURL=monument _single.css.map */
