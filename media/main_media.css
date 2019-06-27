@@ -1,0 +1,278 @@
+@media only screen and (max-width: 1100px) {
+    .header_flex {
+        margin: 0 30px 0 30px;
+    }
+    
+    .container {
+        margin: 0 30px 0 30px;
+    }
+    
+    .title {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    footer .contact {
+        margin: 0 30px 0 30px;
+    }
+    
+    .company {
+        margin: 0 30px 0 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1050px) {
+    .header_flex-menu {
+        display: none;
+    }
+    
+    .navigation {
+        display: block;
+    }
+    
+    #menuToggle {
+        display: inline-block;
+    }
+    
+    .main_info-menu-title {
+        font-size: 14px;
+    }
+    
+    footer .contact iframe {
+        width: 550px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .title_flex-main h1 {
+        font-size: 25px;
+    }
+    
+    .title_flex-main p {
+        font-size: 15px;
+    }
+    
+    .title_flex-stock img {
+        width: 300px;
+    }
+    
+    .title_flex {
+        align-items: flex-end;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .main_info-menu {
+        display: none;
+    }
+    
+    .main {
+        grid-template-columns: 1fr;
+        grid-template-areas: "c";
+    }
+    
+    
+}
+
+@media only screen and (max-width: 736px) {
+    .title_flex-main h1 {
+        display: none;
+    }
+    
+    .title_mobile {
+        display: block;
+        text-align: center;
+    }
+    
+    .main_info {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "t t t"
+            "ma mb mc"
+            "md me mf"
+            "mg mh mi"
+            "mj mk ml"
+            "rm rm rm"
+            "tt tt tt"
+            "pa pb pc"
+            "pd pe pf"
+            "pg ph pf"
+            "rmp rmp rmp";
+    }
+    
+    
+    
+
+    
+}
+
+@media only screen and (max-width: 674px) {
+    .title_flex {
+        flex-flow: column;
+        align-items: center;
+    }
+    
+    .title_flex-main {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .title_flex-stock img {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .main_info {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "t t"
+            "ma mb"
+            "mc md"
+            "me mf"
+            "mg mh"
+            "mi mj"
+            "mk ml"
+            "rm rm"
+            "tt tt"
+            "pa pb"
+            "pc pd"
+            "pe pf"
+            "pg ph"
+            "rmp rmp";
+    }
+    
+    footer .contact iframe {
+        width: 300px;
+        height: 250px;
+    }
+    
+    .header_flex-contact {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    footer .contact {
+        flex-flow: column;
+    }
+    
+    footer .contact_maps {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .header_flex-logo img {
+        width: 160px;
+    }
+    
+    .company_info img {
+        width: 150px;
+    }
+    
+    #bay img,
+    #setting img,
+    #sale img {
+        width: 150px;
+    }
+    
+    footer .contact iframe {
+        width: 100%;
+        height: 250px;
+    }
+    
+}
+
+@media only screen and (max-width: 460px) {
+    .header_flex {
+        margin: 0 16px 0 16px;
+    }
+    
+    .container {
+        margin: 0 16px 0 16px;
+    }
+    
+    .title {
+        margin-top: 80px;
+    }
+    
+    .main_info {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "t"
+            "ma"
+            "mb"
+            "mc" 
+            "md"
+            "me" 
+            "mf"
+            "mg" 
+            "mh"
+            "mi" 
+            "mj"
+            "mk" 
+            "ml"
+            "rm"
+            "tt"
+            "pa"
+            "pb"
+            "pc"
+            "pd"
+            "pe"
+            "pf"
+            "pg"
+            "ph"
+            "rmp";
+    }
+    
+    .company {
+        margin: 0 16px 0 16px;
+
+    }
+    
+    .company_info img {
+        display: block;
+        width: 100%;
+        float: none;
+        
+    }
+    
+    .company #bay img,
+    .company #setting img,
+    .company #sale img {
+        width: 100%;
+        display: block;
+        float: none;
+        margin-bottom: 15px;
+    }
+    
+    .company_icon-card img {
+        width: 60px;
+    }
+    
+    .company_icon-card p {
+        font-size: 12px;
+    }
+    
+    footer .copy {
+        margin-left: 16px;
+    }
+    
+    .company_info h1 {
+        text-align: center;
+    }
+    
+    .company #bay h2,
+    .company #setting h2,
+    .company #sale h2 {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 370px) {
+    .header_flex-logo img {
+        width: 120px;
+    }
+}
