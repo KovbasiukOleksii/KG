@@ -1,0 +1,19 @@
+.monument {
+  margin-top: 80px;
+  line-height: 1.5em; }
+  .monument h1 {
+    margin-bottom: 10px; }
+  .monument_card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px; }
+    .monument_card img {
+      width: 150px; }
+    .monument_card-item {
+      margin-bottom: 30px;
+      padding: 30px; }
+      .monument_card-item p {
+        text-align: left; }
+
+/*# sourceMappingURL=monument _single.css.map */
